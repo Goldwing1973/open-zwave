@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Product xmlns="http://code.google.com/p/open-zwave/">
-
+<Product xmlns='https://github.com/OpenZWave/open-zwave' Revision="1">
+  <!--
+  Shenzhen NEO Electronics (Neo-CoolCam) Curtain Switch
+  -->
+  <MetaData>
+    <MetaDataItem name="ProductPage">https://www.szneo.com/en/products/show.php?id=234</MetaDataItem>
+    <MetaDataItem name="ProductPic">images/shenzen_neo/nas-sc03ze-t-2-v3.jpg</MetaDataItem>
+    <MetaDataItem name="InclusionDescription">Prepaire z-wave controller for inclusion and touch the middle button 3 times within 1.5 seconds to start the pairing process</MetaDataItem>
+    <MetaDataItem name="ExclusionDescription">Prepaire z-wave controller for exclusion and touch the middle button 3 times within 1.5 seconds to start the exclusion process</MetaDataItem>
+    <MetaDataItem name="Description">Curtain swich EU 868.42 MHz</MetaDataItem>
+    <ChangeLog>
+      <Entry author="Mark Evers - goldwing@outlook.com" date="06 August 2020" revision="1">Initial Release</Entry>
+    </ChangeLog>
+  </MetaData>
   <!-- Configuration Parameters -->
   <CommandClass id="112">
     <Value genre="config" instance="1" index="1" value="1" label="Up/Down Button Swap Enable" units="" size="1" min="0" max="1" type="list">
