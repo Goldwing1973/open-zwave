@@ -5,7 +5,7 @@
   -->
   <MetaData>
     <MetaDataItem name="ProductPage">https://www.szneo.com/en/products/show.php?id=234</MetaDataItem>
-    <MetaDataItem name="ProductPic">images/shenzen_neo/nas-sc03ze-t-2-v3.jpg</MetaDataItem>
+    <MetaDataItem name="ProductPic">images/shenzen_neo/nas-sc03ze-t-2-v3.png</MetaDataItem>
     <MetaDataItem name="InclusionDescription">Prepaire z-wave controller for inclusion and touch the middle button 3 times within 1.5 seconds to start the pairing process</MetaDataItem>
     <MetaDataItem name="ExclusionDescription">Prepaire z-wave controller for exclusion and touch the middle button 3 times within 1.5 seconds to start the exclusion process</MetaDataItem>
     <MetaDataItem name="Description">Curtain swich EU 868.42 MHz</MetaDataItem>
